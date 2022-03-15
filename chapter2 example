@@ -1,0 +1,11 @@
+mongo "mongodb+srv://sandbox.3owbc.mongodb.net/myFirstDatabase" --username m001-student
+MongoDB Enterprise atlas-cs1we6-shard-0:PRIMARY> show dbs
+MongoDB Enterprise atlas-cs1we6-shard-0:PRIMARY> use sample_training
+MongoDB Enterprise atlas-cs1we6-shard-0:PRIMARY> show collections
+MongoDB Enterprise atlas-cs1we6-shard-0:PRIMARY> db.zips.find({"state":"NY"})
+MongoDB Enterprise atlas-cs1we6-shard-0:PRIMARY> it
+MongoDB Enterprise atlas-cs1we6-shard-0:PRIMARY> db.zips.find({"state":"NY"}).count()
+MongoDB Enterprise atlas-cs1we6-shard-0:PRIMARY> db.zips.find({"state":"NY","city":"ALBANY"}).count()
+MongoDB Enterprise atlas-cs1we6-shard-0:PRIMARY> db.zips.find({"state":"NY","city":"ALBANY"})
+MongoDB Enterprise atlas-cs1we6-shard-0:PRIMARY> db.zips.find({"state":"NY","city":"ALBANY"}).pretty()
+
